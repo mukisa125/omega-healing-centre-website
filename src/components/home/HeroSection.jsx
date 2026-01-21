@@ -22,13 +22,13 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="lg:col-span-2 order-1 lg:order-1"
+            className="lg:col-span-2 order-1 lg:order-1 pt-16 lg:pt-0"
           >
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 lg:mb-6 text-white drop-shadow-2xl text-center lg:text-left"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-8 lg:mb-6 text-white drop-shadow-2xl text-center lg:text-left"
             >
               An open invitation to a life of{' '}
               <span className="text-primary drop-shadow-lg">healing</span>
@@ -66,23 +66,23 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="lg:col-span-1 order-2 lg:order-2 w-full"
           >
-            <div className="bg-white/95 backdrop-blur-lg border-2 border-primary/20 rounded-2xl p-8 shadow-2xl">
-              <h3 className="text-2xl font-extrabold mb-6 text-center border-b-2 border-primary/30 pb-4 text-gray-900">
+            <div className="bg-white/10 lg:bg-white/95 backdrop-blur-lg border-2 border-white/30 lg:border-primary/20 rounded-xl p-4 sm:p-6 shadow-2xl">
+              <h3 className="text-lg sm:text-xl font-bold mb-3 text-center border-b border-white/40 lg:border-primary/30 pb-2 text-white lg:text-gray-900">
                 SERVICE TIMES
               </h3>
 
-              <div className="space-y-4">
+              <div className="space-y-2">
                 <div>
-                  <h4 className="text-primary font-bold text-lg mb-4 uppercase tracking-wide">Sunday Services</h4>
-                  <div className="space-y-3">
-                    <div className="bg-primary/5 rounded-lg p-3">
-                      <p className="text-gray-800 font-medium">First Service – <span className="font-bold text-gray-900">7:00 AM - 8:40 AM</span></p>
+                  <h4 className="text-primary font-semibold text-sm sm:text-base mb-2">Sunday Services</h4>
+                  <div className="space-y-1.5">
+                    <div className="bg-white/20 lg:bg-primary/5 rounded-lg p-2">
+                      <p className="text-white lg:text-gray-800 text-xs sm:text-sm">First Service – <span className="font-bold text-white lg:text-gray-900">7:00 AM - 8:40 AM</span></p>
                     </div>
-                    <div className="bg-primary/5 rounded-lg p-3">
-                      <p className="text-gray-800 font-medium">Second Service – <span className="font-bold text-gray-900">9:00 AM - 11:50 AM</span></p>
+                    <div className="bg-white/20 lg:bg-primary/5 rounded-lg p-2">
+                      <p className="text-white lg:text-gray-800 text-xs sm:text-sm">Second Service – <span className="font-bold text-white lg:text-gray-900">9:00 AM - 11:50 AM</span></p>
                     </div>
-                    <div className="bg-primary/5 rounded-lg p-3">
-                      <p className="text-gray-800 font-medium">Third Service – <span className="font-bold text-gray-900">11:30 AM - 12:20 PM</span></p>
+                    <div className="bg-white/20 lg:bg-primary/5 rounded-lg p-2">
+                      <p className="text-white lg:text-gray-800 text-xs sm:text-sm">Third Service – <span className="font-bold text-white lg:text-gray-900">11:30 AM - 12:20 PM</span></p>
                     </div>
                   </div>
                 </div>
@@ -90,11 +90,11 @@ const HeroSection = () => {
 
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="mt-8"
+                className="mt-4"
               >
                 <a
                   href="#programs"
-                  className="block w-full text-center bg-primary hover:bg-primary-dark border-2 border-primary text-white font-bold px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                  className="block w-full text-center bg-primary hover:bg-primary-dark border-2 border-primary text-white font-semibold text-sm sm:text-base px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
                   Other Programs
                 </a>

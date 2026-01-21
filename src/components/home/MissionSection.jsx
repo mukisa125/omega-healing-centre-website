@@ -39,7 +39,7 @@ const MissionSection = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1507692049790-de58290a4334?q=80&w=2070&auto=format&fit=crop"
+                src={`${import.meta.env.BASE_URL}worship-praise.jpg`}
                 alt="Mission"
                 className="w-full h-[400px] object-cover"
               />
