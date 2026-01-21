@@ -21,7 +21,7 @@ const AboutPtMichael = () => {
                 <div className="absolute inset-0 bg-primary/20 rounded-2xl blur-3xl"></div>
                 <div className="relative rounded-2xl overflow-hidden border-4 border-primary/30 shadow-2xl">
                   <img 
-                    src="/pastor-michael.jpg" 
+                    src="pastor-michael.jpg" 
                     alt="Pr Michael Kyazze" 
                     className="w-full h-auto object-cover aspect-[3/4]"
                   />
