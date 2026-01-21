@@ -11,7 +11,7 @@ const SupportOperations = () => {
         'Managing offering collection',
         'Maintaining order and safety during services'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Protocol Department',
@@ -22,7 +22,7 @@ const SupportOperations = () => {
         'Ensuring proper event etiquette',
         'Organizing official church ceremonies'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     },
     {
       title: 'Administration',
@@ -33,7 +33,7 @@ const SupportOperations = () => {
         'Handling official correspondence',
         'Supporting pastoral leadership'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Finance',
@@ -44,7 +44,7 @@ const SupportOperations = () => {
         'Financial reporting and accountability',
         'Supporting ministry projects financially'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     },
     {
       title: 'Media',
@@ -55,7 +55,7 @@ const SupportOperations = () => {
         'Social media management',
         'Photography and videography'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Technical',
@@ -66,7 +66,7 @@ const SupportOperations = () => {
         'Projection and visual displays',
         'Technical equipment maintenance'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     }
   ]
 

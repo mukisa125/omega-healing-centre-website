@@ -11,7 +11,7 @@ const CommunityOutreach = () => {
         'Door-to-door evangelism campaigns',
         'Church planting in new communities'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'OSOM (Omega School of Ministry)',
@@ -22,7 +22,7 @@ const CommunityOutreach = () => {
         'Providing theological education',
         'Developing ministry skills and competencies'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     },
     {
       title: 'Care and Comfort Ministry',
@@ -33,7 +33,7 @@ const CommunityOutreach = () => {
         'Providing practical assistance to those in need',
         'Offering emotional and spiritual comfort'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Marketplace Ministry',
@@ -44,7 +44,7 @@ const CommunityOutreach = () => {
         'Organizing business networking events',
         'Providing biblical business principles'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     }
   ]
 

@@ -11,7 +11,7 @@ const LifeStages = () => {
         'Celebrating milestone birthdays and anniversaries',
         'Creating opportunities for mentorship'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Women of Substance',
@@ -22,7 +22,7 @@ const LifeStages = () => {
         'Supporting women in ministry and leadership',
         'Creating fellowship and prayer groups'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     },
     {
       title: 'Total Men',
@@ -33,7 +33,7 @@ const LifeStages = () => {
         'Teaching biblical manhood and leadership',
         'Organizing fellowship and outreach activities'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Marrieds and Family Department',
@@ -44,7 +44,7 @@ const LifeStages = () => {
         'Organizing family events and retreats',
         'Teaching biblical principles for family life'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     },
     {
       title: 'Youth Ministry',
@@ -55,7 +55,7 @@ const LifeStages = () => {
         'Creating relevant worship experiences',
         'Addressing youth-specific challenges'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Children\'s Ministry',
@@ -66,7 +66,7 @@ const LifeStages = () => {
         'Providing Bible-based curriculum',
         'Creating engaging activities and events'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     }
   ]
 

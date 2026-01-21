@@ -11,7 +11,7 @@ const Specialized = () => {
         'Managing special programs and events',
         'Ensuring project completion and quality'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Absolutes',
@@ -22,7 +22,7 @@ const Specialized = () => {
         'Standing firm on scriptural principles',
         'Mentoring in godly character development'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     }
   ]
 

@@ -11,7 +11,7 @@ const SpiritualGrowth = () => {
         'Tracking member attendance and engagement',
         'Providing pastoral care and support'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Christian Education and Training',
@@ -22,7 +22,7 @@ const SpiritualGrowth = () => {
         'Leadership development training',
         'Theological education and seminars'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     },
     {
       title: 'Cell Department',
@@ -33,7 +33,7 @@ const SpiritualGrowth = () => {
         'Facilitating group discussions and studies',
         'Fostering community and accountability'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Prayer Ministry',
@@ -44,7 +44,7 @@ const SpiritualGrowth = () => {
         'Teaching on prayer and spiritual warfare',
         'Providing prayer support for individuals'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     },
     {
       title: 'Deliverance Ministry',
@@ -55,7 +55,7 @@ const SpiritualGrowth = () => {
         'Teaching on spiritual warfare',
         'Post-deliverance follow-up and support'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     },
     {
       title: 'Church in Church (Evening Services)',
@@ -66,7 +66,7 @@ const SpiritualGrowth = () => {
         'Teaching and preaching the Word',
         'Creating a vibrant worship atmosphere'
       ],
-      image: '/church-building.jpg'
+      image: `${import.meta.env.BASE_URL}church-building.jpg`
     },
     {
       title: 'Church Tribes',
@@ -77,7 +77,7 @@ const SpiritualGrowth = () => {
         'Supporting members from various backgrounds',
         'Celebrating diversity in the body of Christ'
       ],
-      image: '/church-building1.jpg'
+      image: `${import.meta.env.BASE_URL}church-building1.jpg`
     }
   ]
 
