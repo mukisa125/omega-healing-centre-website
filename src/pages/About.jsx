@@ -11,7 +11,7 @@ const About = () => {
       >
         <div className="absolute inset-0">
           <img 
-            src="omega-church.jpg" 
+            src={`${import.meta.env.BASE_URL}omega-church.jpg`}
             alt="Omega Healing Center" 
             className="w-full h-full object-cover"
           />

@@ -11,7 +11,7 @@ const AboutOmegaMinistry = () => {
       >
         <div className="absolute inset-0">
           <img 
-            src="church-building1.jpg" 
+            src={`${import.meta.env.BASE_URL}church-building1.jpg`}
             alt="Omega Healing Center Church Building" 
             className="w-full h-full object-cover"
           />
